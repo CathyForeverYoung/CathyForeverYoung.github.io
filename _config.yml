@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-url: https://sylhare.github.io/ 
+url: https://cathyforeveryoung.github.io/ 
 baseurl: #
 title: none
 description: none
@@ -7,7 +7,7 @@ description: none
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: HiCathy # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
