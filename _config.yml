@@ -107,6 +107,7 @@ collections:
 
 # BUILD SETTINGS
 markdown: kramdown
+markdown: maruku
 highlighter: rouge
 sass:
   sass_dir: _sass
