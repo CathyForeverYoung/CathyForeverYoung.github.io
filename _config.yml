@@ -107,6 +107,7 @@ collections:
 
 # BUILD SETTINGS
 markdown: kramdown
+mathjax: true
 kramdown:
   input: GFM
   extensions:
