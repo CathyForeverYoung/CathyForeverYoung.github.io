@@ -108,6 +108,16 @@ collections:
 # BUILD SETTINGS
 markdown: kramdown
 markdown: maruku
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  use_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
 highlighter: rouge
 sass:
   sass_dir: _sass
