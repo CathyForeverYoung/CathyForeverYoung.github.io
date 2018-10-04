@@ -107,7 +107,6 @@ collections:
 
 # BUILD SETTINGS
 markdown: kramdown
-markdown: maruku
 kramdown:
   input: GFM
   extensions:
