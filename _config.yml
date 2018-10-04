@@ -9,15 +9,15 @@ description: "A website with blog posts and pages" # used by search engines
 theme_settings:
   # Meta
   title: HiCathy # blog's title
-  avatar: assets/img/triangle.svg
+  avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
-  header_text: 知识只有输出才是自己的。 
+  header_text: 搏一搏，单车变摩托！！！ 
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> 
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
