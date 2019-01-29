@@ -1,8 +1,4 @@
 .math-display{
 	width: 200px;
-}
-
-.math-display .base{
-	display: block;
 	margin: 0 auto;
 }
