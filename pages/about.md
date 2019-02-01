@@ -6,4 +6,5 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 
-## Huazhong University of Science and Technology
+- Huazhong University of Science and Technology
+- Recommendation Algorithmn; Machine Learning  
