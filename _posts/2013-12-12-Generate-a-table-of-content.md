@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Generate a table of content
-tags: [Markdown]
+tags: [Test, Markdown]
 ---
 
 Test article, get the source on [github](https://github.com/Sylhare/Type-on-Strap/blob/gh-pages/_posts/2013-12-12-toc.js-for-table-of-content.md).

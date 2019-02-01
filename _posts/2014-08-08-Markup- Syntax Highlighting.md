@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markup: Syntax Highlighting"
-tags: [Markdown]
+tags: [Test, Markdown]
 ---
 
 From Michael's Rose [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting).

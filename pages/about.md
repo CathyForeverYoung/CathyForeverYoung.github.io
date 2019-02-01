@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
