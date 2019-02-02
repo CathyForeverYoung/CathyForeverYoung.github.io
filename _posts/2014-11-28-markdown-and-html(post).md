@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markdown and HTML
+title: Markdown and HTML(post)
 feature-img: "assets/img/pexels/desk-messy.jpeg"
 thumbnail: "assets/img/thumbnails/desk-messy.jpeg"
 tags: [Test, Markdown]
