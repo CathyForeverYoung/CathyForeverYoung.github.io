@@ -41,6 +41,7 @@ Alternatively, they can be shown on a new line:
 
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
 
+---
 # Syntax Highlighting
 From Michael's Rose [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting).
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. [Highlighting](http://en.wikipedia.org/wiki/Syntax_highlighting) does not affect the meaning of the text itself; it is intended only for human readers.
@@ -123,17 +124,17 @@ An example of a Gist embed below.
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
 
-
+---
 # Generate a table of content
 Test article, get the source on [github](https://github.com/Sylhare/Type-on-Strap/blob/gh-pages/_posts/2013-12-12-toc.js-for-table-of-content.md).
 
-# Using Kramdown GFM
+## Using Kramdown GFM
 
 <!-- To be placed at the beginning of the post, it is where the table of content will be generated -->
 * TOC
 {:toc}
 
-## Basic Usage
+### Basic Usage
 
 
 You need to put this at the beginning of the page where you want the table of content to be displayed
@@ -145,18 +146,18 @@ You need to put this at the beginning of the page where you want the table of co
 
 It will then render the markdown and html titles (lines that begins with `#` or using the `<h1></h1>` tages)
 
-# Using toc.js
+## Using toc.js
 
 Demo display of [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents) by ghiculescu.
 
 <!-- To be placed at the beginning of the post, it is where the table of content will be generated -->
 <div id="toc"></div>
 
-## Customize with toc.js
+### Customize with toc.js
 
 [toc.js](https://github.com/ghiculescu/jekyll-table-of-contents) stands for table of content, it is a js plugin that generates automatically a table of content of a post.
 
-### Use with this jekyll template
+#### Use with this jekyll template
 
 If you want to customize the theme it is up to you, you can add the `toc.js` file into the `asset > js` and add it into the `page.html` layout with:
 
@@ -165,7 +166,7 @@ If you want to customize the theme it is up to you, you can add the `toc.js` fil
 ```
 Then you can use it as it is said on the repository.
 
-## Basic Usage
+### Basic Usage
 
 The script requires jQuery. First, reference toc.js in templates where you would like to add the table of content. Then, create an HTML element wherever you want your table of contents to appear:
 
@@ -195,7 +196,7 @@ $(document).ready(function() {
 </script>
 ```
 
-## How it would look like
+### How it would look like
 
 ![image](https://user-images.githubusercontent.com/20642750/39189661-c22099f2-47a0-11e8-826e-2ec3ef4cc4f4.png)
 
