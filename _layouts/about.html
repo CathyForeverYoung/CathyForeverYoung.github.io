@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
-  <header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+  	<header id="main" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title">
         {{ page.title }}
     </h1>
@@ -12,20 +12,19 @@ layout: default
     <h2 class="subtitle">{{ page.subtitle }}</h2>
     {% endif %}
       
-  </header>
+  	</header>
   
-  <div class="container" style="padding: 4% 10%">
-  <div class="row">
-  	<div class="col-md-4" style="float: left;">
-  		<img src='{{ site.baseurl }}/assets/img/pexels/avatar.jpg' style="width: 20%"/>	
-  	</div>
-  	
-  	<div class="profile col-md-8" style="float: left; width: 80%">
-  		{{content}}
-  	</div>
-  </div>
-
-  </div>
+	<div class="container" style="padding: 4% 10%">
+	<div class="row">
+		<div class="col-md-4" style="float: left;">
+			<img src='{{ site.baseurl }}/assets/img/pexels/avatar.jpg' style="width: 20%"/>	
+		</div>
+		
+		<div class="profile col-md-8" style="float: left; width: 80%">
+			{{content}}
+		</div>
+	</div>
+	</div>
     
     
   <!-- Tag list for portfolio -->
